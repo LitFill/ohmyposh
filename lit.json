@@ -126,7 +126,7 @@
           "style": "plain",
           "foreground": "#193549",
           "background": "p:terminal_background",
-          "background_templates": [
+          "foreground_templates": [
             "{{if eq \"Charging\" .State.String}}p:terminal-blue{{end}}",
             "{{if lt 20.0 .Percentage}}p:terminal-red{{end}}",
             "{{if eq \"Discharging\" .State.String}}p:terminal-yellow{{end}}",
