@@ -178,13 +178,13 @@
   "secondary_prompt": {
     "background": "transparent",
     "foreground": "p:terminal-blue",
-    "template": "\u279c "
+    "template": "\u00bb "
   },
   "transient_prompt": {
-    "background": "p:t-background",
+    "background": "transparent",
     "foreground": "p:terminal-blue",
     "newline": true,
-    "template": "\u279c "
+    "template": "\u03bb "
   },
   "final_space": true,
   "version": 2,
