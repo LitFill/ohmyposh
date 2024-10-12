@@ -29,7 +29,7 @@
           "style": "plain",
           "background": "transparent",
           "foreground": "p:terminal-blue",
-          "template": "\u279c "
+          "template": "\u03bb "
         },
         {
           "type": "path",
