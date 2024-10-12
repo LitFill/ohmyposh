@@ -134,8 +134,8 @@
           ],
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }} ",
           "properties": {
-            "discharging_icon": " ",
-            "charging_icon": " ",
+            "discharging_icon": "\u06de  ",
+            "charging_icon": "\u2386 ",
             "charged_icon": " "
           }
         }
