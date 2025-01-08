@@ -4,18 +4,19 @@
     "blue-bell": "#9aa5ce",
     "blue-black": "#565f89",
     "celeste-blue": "#b4f9f8",
-    "light-sky-blue": "#7dcfff",
+    "light-sky-blue": "#66A0C8",
     "main-bg": "#24283b",
     "pastal-grey": "#cfc9c2",
-    "pistachio-green": "#9ece6a",
+    "pistachio-green": "#879A39",
     "t-background": "p:main-bg",
     "terminal-black": "#414868",
-    "terminal-blue": "#7aa2f7",
-    "terminal-green": "#73daca",
-    "terminal-magenta": "#bb9af7",
-    "terminal-red": "#f7768e",
+    "terminal-blue": "#4385BE",
+    "terminal-green": "#768D21",
+    "terminal-magenta": "#E47DA8",
+    "terminal-red": "#D14D41",
     "terminal-white": "#c0caf5",
-    "terminal-yellow": "#e0af68",
+    "terminal-yellow": "#ECCB60",
+    "terminal-purple": "#735EB5",
     "white-blue": "#a9b1d6"
   },
   "secondary_prompt": {
@@ -60,7 +61,7 @@
               "p:terminal-green",
               "p:terminal-yellow",
               "p:terminal-blue",
-              "p:terminal-magenta"
+              "p:terminal-purple"
             ],
             "cycle_folder_separator": true,
             "mapped_locations": {
