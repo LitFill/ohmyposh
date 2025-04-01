@@ -1,58 +1,58 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
-    "blue-bell": "#9aa5ce",
-    "blue-black": "#565f89",
-    "celeste-blue": "#b4f9f8",
-    "light-sky-blue": "#66A0C8",
-    "main-bg": "#24283b",
-    "pastal-grey": "#cfc9c2",
-    "pistachio-green": "#879A39",
-    "t-background": "p:main-bg",
-    "terminal-black": "#414868",
-    "terminal-blue": "#4385BE",
-    "terminal-green": "#768D21",
+    "blue-bell":        "#9aa5ce",
+    "blue-black":       "#565f89",
+    "celeste-blue":     "#b4f9f8",
+    "light-sky-blue":   "#66A0C8",
+    "main-bg":          "#24283b",
+    "pastal-grey":      "#cfc9c2",
+    "pistachio-green":  "#879A39",
+    "t-background":     "p:main-bg",
+    "terminal-black":   "#414868",
+    "terminal-blue":    "#4385BE",
+    "terminal-green":   "#768D21",
     "terminal-magenta": "#E47DA8",
-    "terminal-red": "#D14D41",
-    "terminal-white": "#c0caf5",
-    "terminal-yellow": "#ECCB60",
-    "terminal-purple": "#735EB5",
-    "white-blue": "#a9b1d6"
+    "terminal-red":     "#D14D41",
+    "terminal-white":   "#c0caf5",
+    "terminal-yellow":  "#ECCB60",
+    "terminal-purple":  "#735EB5",
+    "white-blue":       "#a9b1d6"
   },
   "secondary_prompt": {
-    "template": "» ",
+    "template":   "» ",
     "foreground": "p:terminal-blue",
     "background": "transparent"
   },
   "transient_prompt": {
-    "template": "λ ",
+    "template":   "λ ",
     "foreground": "p:terminal-blue",
     "background": "transparent",
-    "newline": true
+    "newline":    true
   },
   "console_title_template": " {{ .Shell }} in {{ .Folder }} :: {{if .Root}}Admin{{else}}LitFill{{end}}",
-  "terminal_background": "p:t-background",
+  "terminal_background":    "p:t-background",
   "blocks": [
     {
-      "type": "prompt",
+      "type":      "prompt",
       "alignment": "left",
       "segments": [
         {
-          "type": "os",
-          "style": "plain",
+          "type":       "os",
+          "style":      "plain",
           "foreground": "p:terminal-blue",
           "background": "transparent",
-          "template": "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
+          "template":   "{{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
           "properties": {
             "macos": "mac"
           }
         },
         {
-          "style": "plain",
-          "template": "λ ",
+          "style":      "plain",
+          "template":   "λ ",
           "foreground": "p:terminal-blue",
           "background": "transparent",
-          "type": "text"
+          "type":       "text"
         },
         {
           "properties": {
@@ -65,14 +65,14 @@
             ],
             "cycle_folder_separator": true,
             "mapped_locations": {
-              "/home/litfill/proyek": "☪  MyProyek ☪ "
+              "/home/litfill/proyek": "≡ MyProyek ≡"
             },
             "style": "full"
           },
-          "style": "plain",
-          "template": "<b>{{ .Path }}</b> <p:light-sky-blue>⚡</>",
+          "style":      "plain",
+          "template":   "<b>{{ .Path }}</b> <p:light-sky-blue>⚡</>",
           "foreground": "p:terminal-magenta",
-          "type": "path"
+          "type":       "path"
         },
         {
           "properties": {
@@ -119,7 +119,7 @@
         {
           "style": "plain",
           "template": " \ue61f {{ .Full }}",
-          "foreground": "p:terminal-magenta",
+          "foreground": "p:terminal-purple",
           "background": "p:terminal_background",
           "type": "haskell"
         },
